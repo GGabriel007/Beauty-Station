@@ -4,6 +4,8 @@
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: "Caveat", cursive;
+
 }
 
 .top{
@@ -19,6 +21,7 @@ body {
 }
 
 .left-header-links {
+    font-family: "Caveat", cursive;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +29,7 @@ body {
     margin-top: 25px;
     height: 24px;
     color: #F9FAF8;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 
 }
 
@@ -40,7 +43,7 @@ body {
     margin-top: 45px;
     height: 100px;
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Caveat", cursive;
     
 }
 
@@ -122,7 +125,8 @@ img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
+    margin-bottom: 15px;
 }
 
 .top-information{
@@ -137,8 +141,8 @@ img {
 }
 
 .icon {
-    height: 675px;
-    width: 375px;
+    height: 500px;
+    width: 275px;
     border-radius: 15px; 
     display: flex;
     flex-direction: column;
@@ -146,11 +150,13 @@ img {
     background-color: #c37591;
     padding: 5px;
     border-radius: 20px;
+   
 }
 
 .header-information {
     font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
 
 }
 
@@ -179,6 +185,20 @@ img {
 
 }
 
+.map-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    border: 0;
+}
+
 .second-text{
     font-size: 28px;
     align-self: flex-end;
@@ -194,7 +214,7 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 
 }
 
@@ -221,7 +241,7 @@ img {
     padding-right: 110px;
     border-radius: 15px;
     background-color: #c37591;
-    gap: 25px;
+    gap: 80px;
 
 }
 
@@ -245,4 +265,18 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
+}
+
+.icon-Social-media {
+    margin-top: 45px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.icons_social{
+
+
 }
