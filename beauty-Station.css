@@ -17,7 +17,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 1px;
 }
 
 .left-header-links {
@@ -40,7 +39,7 @@ body {
     align-items: center;
     gap: 75px;
     padding-right: 35px;
-    margin-top: 45px;
+    margin-top: 20px;
     height: 100px;
     font-size: 25px;
     font-family: "Caveat", cursive;
@@ -57,20 +56,6 @@ img {
     height: 225px;
 }
 
-.main-title {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.second-title{
-    display: flex;
-    flex-direction: column;
-    padding-left: 80px;
-}
 
 .image-header {
     width: 125px;
@@ -78,23 +63,7 @@ img {
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin: 35px;
-
-}
-
-.title {
-    height: 48px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.content-title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    color: white;
-    font-size: 18px;
-
+    margin-left: 20px;
 
 }
 
@@ -199,12 +168,6 @@ img {
     border: 0;
 }
 
-.second-text{
-    font-size: 28px;
-    align-self: flex-end;
-
-}
-
 /* Action section */
 
 .action{
@@ -218,19 +181,6 @@ img {
 
 }
 
-.button-action{
-    align-self: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    background-color: #c37591;
-    border-color: white;
-    color: white;
-
-    font-size: 18px;
-}
 
 .container{
     display: flex;
@@ -273,10 +223,5 @@ img {
     height: 60px;
     margin-left: 20px;
     margin-right: 20px;
-
-}
-
-.icons_social{
-
 
 }
