@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: "Caveat", cursive;
+    
 }
 
 .top {
@@ -16,7 +16,6 @@ body {
 }
 
 .left-header-links {
-    font-family: "Caveat", cursive;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,8 +34,8 @@ body {
     padding-right: 35px;
     margin-top: 20px;
     height: 100px;
-    font-size: 25px;
-    font-family: "Caveat", cursive;
+    font-size: 29px;
+    font-family: "PT Serif", serif;
 }
 
 a {
@@ -63,6 +62,7 @@ img {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+    
 }
 
 .mid-information {
@@ -71,11 +71,13 @@ img {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    
+    background-color: #e6e0e2;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 .top-information {
     margin-bottom: 20px;
+    
 }
 
 .center {
@@ -88,24 +90,26 @@ img {
 }
 
 .icon {
-    height: 500px;
-    width: 275px;
+    height: 525px;
+    width: 300px;
     border-radius: 15px;
     background-color: #c37591;
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .header-information {
     font-size: 36px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "PT Serif", serif;
     margin: 50px;
 }
 
 .text {
     font-size: 25px;
-    margin-left: 250px;
-    width: 315px;
+    margin-left: 150px;
+    width: 615px;
+    text-align: left;
+    line-height: 1.4;
 }
 
 .action {
@@ -115,6 +119,7 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
     color: white;
+    font-family: "PT Serif", serif;
 }
 
 .container {
@@ -130,11 +135,11 @@ img {
 }
 
 .first-action {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .second-action {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 /* Fotter */
@@ -144,19 +149,20 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #c9537e;
+    background-color: #c37591;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .icon-Social-media {
-    margin-top: 45px;
+    margin-top: 60px;
     width: 60px;
     height: 60px;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
 .info1 {
@@ -165,4 +171,9 @@ img {
     justify-content: space-between;
     width: 1100px;
     background-color: rgb(158, 159, 159);
+}
+
+.class_links {
+    color: black;
+    text-decoration: underline;
 }
