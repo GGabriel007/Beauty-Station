@@ -1,7 +1,6 @@
 body {
     margin: 0;
     min-height: 100vh;
-    
 }
 
 .top {
@@ -55,14 +54,12 @@ img {
     object-fit: cover;
     display: block;
     margin-left: 20px;
-
 }
 
 .information {
     width: 100%;
     text-align: center;
     margin-top: 20px;
-    
 }
 
 .mid-information {
@@ -77,11 +74,9 @@ img {
 
 .top-information {
     margin-bottom: 20px;
-    
 }
 
 .center {
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,11 +100,12 @@ img {
 }
 
 .text {
+    margin-bottom: 20px;
     font-size: 25px;
-    margin-left: 150px;
     width: 615px;
     text-align: left;
     line-height: 1.4;
+
 }
 
 .action {
@@ -160,7 +156,6 @@ img {
     height: 60px;
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
 .class_links {
@@ -168,5 +163,39 @@ img {
     text-decoration: underline;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.main-image img{
+    margin-top: 45PX;
+    width: 500px;
+    height: 815px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #c37591;
+    padding: 5px;
 
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thumbnails img {
+    width: 175px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 15px; 
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
