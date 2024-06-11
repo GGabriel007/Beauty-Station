@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Station Classes</title>
+    <link rel="stylesheet" href="/beauty-SDomicilio/beauty-SDomicilio.css">
+    <script src="/beauty-SDomicilio/beauty-SDomicilio.js" defer></script>
+</head>
+<body>
+    <div class="top">
+        <div class="header">
+            <a href="/beauty-Station.html">
+                <img class="image-header" src="/images/Beauty_Station_logo.jpeg" alt="place holder image">
+            </a>
+            <ul class="right-header-links">
+                <li><a href="/beauty_SClasses/beauty_SClasses.html">Classes</a></li>
+                <li><a href="/beauty-SDomicilio/beauty-SDomicilio.html">Servicio a Domicilio</a></li>
+                <li><a href="/beauty_SContacto/beauty_SContacto.html">Contactanos</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="information">
+        <div class="top-information">
+            <h2 class="header-information"><strong>Solicitud Servicio a Domicilio</strong></h2>
+        </div>
+        <div class="mid-information">
+            <form action = "beauty-SDomicilio.php" method = "post">
+                <label for = "email">EMAIL:*</label>
+                <input type = "email" id ="email" name = "email" required> <br>
+
+                <label for ="name">NOMBRE Y APELLIDO:*</label>
+                <input type ="text" id ="name" name ="name" required><br>
+
+                <label for = "whatsapp">NUMERO DE WHATSAPP:*</label>
+                <input type = "text" id ="whatsapp" name ="whatsapp" required><br>
+
+                <label for="date">FECHA DEL EVENTO:*</label>
+                <input type = "date" id="date" name="date" required><br>
+
+                <label for = "address">DIRECCIÓN O NOMBRE DE HOTEL DONDE DESEAN ARREGLARSE*: <div class ="second-Text">- ESPECIFICAR CIUDAD O ANTIGUA - TOMA EN CUENTA QUE LOS PRECIOS VARIAN SEGÚN UBICACIÓN</div></label>
+                <textarea id = "address" name = "address" required></textarea><br>
+
+                <label for = "services">CANTIDAD DE SERVICOS QUE DESEEN COTIZAR:*<div class ="second-Text"> (MINIMO DE 6 MAQUILLAJES Y 6 PEINADOS PARA APLICAR A DOMICILIO)</div></label>
+                <input type ="text" id="services" name = "services" required><br>
+
+                <label for ="time">A QUE HORA NECESITAN ESTAR LISTAS?* <div class ="second-Text">(TOMA EN CONSIDERACIÓN SI SU FOTÓGRAFO LES HARÁ FOTOS)</div></label>
+                <input type = "time" id = "time" name = "time" required><br>
+
+                <label for ="notes">ALGO MÁS QUE CONSIDERA IMPORTANTE COMPARTIR CON NOSOTROS:*</label>
+                <textarea id = "notes" name = "notes" required></textarea>
+
+                <input type = "submit" value = "Submit">
+            </form>    
+        </div>
+    </div>
+    
+    <div class="action">
+        <div class="container">
+            <div class="action-text">
+                <p class="first-action"><strong>¡Siguenos!</strong></p>
+                <p class="second-action">Nos puedes seguir en los siguientes enlaces!</p>
+            </div>
+            <div class="icons_social">
+                <a href="https://www.instagram.com/beautystationguate/" target="_blank">
+                    <img class="icon-Social-media" src="/images/social_media/instagram.png" alt="Instagram logo icons created by Freepik - Flaticon">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=50250177803&text=Encontr%C3%A9%20sus%20redes%20sociales%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20de%20%3A" target="_blank">
+                    <img class="icon-Social-media" src="/images/social_media/whatsapp.png" alt="Whatsapp logo icons created by Pixel Perfect - Flaticon">
+                </a>
+                <a href="https://www.tiktok.com/@beautystationguate" target="_blank">
+                    <img class="icon-Social-media" src="/images/social_media/tik-tok.png" alt="Tiktok logo icons created by Freepik - Flaticon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="fotter">
+        <p class="text-fotter">© 2024 by Beauty Station</p>
+    </div>
+</body>
+</html>
