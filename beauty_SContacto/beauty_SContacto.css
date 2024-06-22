@@ -1,0 +1,166 @@
+/* Header */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "PT Serif", serif;
+
+}
+
+.top{
+    background-color: #c37591;
+    padding-bottom: 1px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.right-header-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 75px;
+    padding-right: 35px;
+    margin-top: 20px;
+    height: 100px;
+    font-size: 29px;
+    font-family: "PT Serif", serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.image-header {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: 20px;
+}
+
+/*Information*/
+
+.image-container {
+    
+    flex-direction: column;
+    width: 100%;
+    height: 390px; /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+
+
+}
+
+.top-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+
+}
+
+.centered-text {
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    font-family: "PT Serif", serif;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.7;
+    font-family: "PT Serif", serif;
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    padding: 10px;
+}
+
+.scrolling-wrapper img {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+
+
+/* Fotter */
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-family: "PT Serif", serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around ;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border-radius: 15px;
+    background-color: #c37591;
+    gap: 80px;
+
+}
+
+.first-action {
+    font-size: 35px;  
+}
+
+.second-action {
+    font-size: 25px;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c37591;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.icon-Social-media {
+    margin-top: 60px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}

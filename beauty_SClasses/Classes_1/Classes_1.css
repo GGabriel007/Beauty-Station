@@ -67,12 +67,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    font-family: "Barlow Condensed", sans-serif;
-}
-
-.top-information {
-    margin-bottom: 20px;
+    background-color: #e6e0e2;
 }
 
 .center {
@@ -100,10 +95,11 @@ img {
 
 .text {
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 28px;
     width: 615px;
     text-align: left;
     line-height: 1.4;
+    font-family: "PT Serif", serif;
 
 }
 
@@ -170,9 +166,9 @@ img {
 }
 
 .main-image img{
-    margin-top: 45PX;
-    width: 500px;
-    height: 815px;
+    margin-top: 25PX;
+    width: 300px;
+    height: 515px;
     border-radius: 15px;
     margin-bottom: 20px;
     background-color: #c37591;
@@ -183,12 +179,12 @@ img {
 .thumbnails {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .thumbnails img {
-    width: 175px;
-    height: 300px;
+    width: 125px;
+    height: 200px;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s ease;

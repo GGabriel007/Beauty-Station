@@ -89,6 +89,8 @@ img {
     margin-bottom: 50px;
 }
 
+
+
 .icon {
     height: 525px;
     width: 300px;
@@ -96,6 +98,16 @@ img {
     background-color: #c37591;
     padding: 5px;
     margin-left: 10px;
+}
+
+.center img {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+
+}
+
+.center img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
 }
 
 .header-information {
