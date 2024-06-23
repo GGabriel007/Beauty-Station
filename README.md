@@ -1,5 +1,4 @@
 # Beauty-Station
- Beauty Station Website.
+Beauty Station Website.
 
- 
-https://ggabriel007.github.io/Beauty-Station/beauty-Station.html
+[Visit the Beauty Station Website](https://ggabriel007.github.io/Beauty-Station/beauty-Station.html)
