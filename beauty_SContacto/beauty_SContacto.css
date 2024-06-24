@@ -57,8 +57,6 @@ a {
     overflow: hidden;
     position: relative;
     display: flex;
-
-
 }
 
 .top-image {
@@ -68,7 +66,6 @@ a {
     object-position: center;
     top: 0;
     left: 0;
-
 }
 
 .centered-text {
@@ -78,7 +75,7 @@ a {
     font-family: "PT Serif", serif;
     text-align: center;
     margin-left: 40%;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .about-text {
