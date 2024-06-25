@@ -5,12 +5,14 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: "PT Serif", serif;
+    background-color: #ed93b4;
+    overflow-x: hidden;
 
 }
 
 .top{
     background-color: #ed93b4;
-    padding-bottom: 1px;
+
 }
 
 .header {
@@ -54,7 +56,13 @@ a {
 {
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    background-color: white;
+    padding-top: 1px;
+}
+
+.top-information{
+    
+    margin-bottom: 15px;
 }
 
 .header-information {
@@ -69,7 +77,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     font-family: "PT Serif", serif;
 }
 
@@ -78,6 +86,14 @@ a {
 }
 
 .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+
+}
+
+.center-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,12 +168,13 @@ a {
     padding-bottom: 60px;
     color: white;
     font-family: "PT Serif", serif;
+    background-color: white;
 }
 
 
 .container{
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     padding-top: 1px;
     padding-bottom: 20px;
     padding-left: 110px;
@@ -189,10 +206,88 @@ a {
 }
 
 .icon-Social-media {
-    margin-top: 60px;
+    padding-top: 60px;
     width: 60px;
     height: 60px;
     margin-left: 20px;
     margin-right: 20px;
+
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .right-header-links {
+        flex-direction:  column;
+        gap: 20px;
+        padding-bottom: 11px;
+        padding-right: 10px;
+        padding-top: 8px;
+        font-size: 23px;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .a{
+        margin-top: 300px;
+        background-color: #ed93b4;
+    }
+
+    .imagen-header {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mid-information {
+        flex-direction: column;
+    }
+
+    .center-main{
+        width: 100%;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    .content {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .first-text {
+        font-size: 28px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 2px;
+        width: 80%;
+        margin-left: 4.8%;
+
+    }
+
+    .action {
+        flex-direction:  column;
+    }
+
+    .first-action {
+        font-size: 34px;
+    }
+
+    .second-action {
+        font-size: 25px;
+    }
+
+    .fotter {
+        font-size: 18px;
+    }
+
+    .icon-Social-media {
+        padding-top: 8px;
+        padding-bottom: 11px;
+    }
 
 }
