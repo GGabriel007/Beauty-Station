@@ -16,23 +16,13 @@ body {
     justify-content: space-between;
 }
 
-.left-header-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 80px;
-    margin-top: 25px;
-    height: 24px;
-    color: #F9FAF8;
-}
-
 .right-header-links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     align-items: center;
     gap: 75px;
-    padding-right: 35px;
+    padding-right: 40px;
     margin-top: 20px;
     height: 100px;
     font-size: 29px;
@@ -51,7 +41,7 @@ a {
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin-left: 20px;
+    padding: 10px;
 }
 
 .information {
