@@ -185,7 +185,10 @@ textarea {
         width: 100px;
         height: 100px;
     }
-   /*Footer*/
+
+    /*Content*/
+
+    /*Footer*/
 
    .container {
     flex-direction: column;
@@ -194,28 +197,28 @@ textarea {
     width: 80%;
     margin-left: 4.8%;
 
-}
+    }
 
-    /*Content*/
+        
 
-.action {
-    flex-direction:  column;
-}
+    .action {
+        flex-direction:  column;
+    }
 
-.first-action {
-    font-size: 34px;
-}
+    .first-action {
+        font-size: 34px;
+    }
 
-.second-action {
-    font-size: 25px;
-}
+    .second-action {
+        font-size: 25px;
+    }
 
-.fotter {
-    font-size: 18px;
-}
+    .fotter {
+        font-size: 18px;
+    }
 
-.icon-Social-media {
-    padding-top: 1px;
-    padding-bottom: 11px;
-}
+    .icon-Social-media {
+        padding-top: 1px;
+        padding-bottom: 11px;
+    }
 }
