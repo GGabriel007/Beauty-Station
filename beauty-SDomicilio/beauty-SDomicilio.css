@@ -196,10 +196,7 @@ textarea {
     gap: 1px;
     width: 80%;
     margin-left: 4.8%;
-
-    }
-
-        
+    } 
 
     .action {
         flex-direction:  column;
