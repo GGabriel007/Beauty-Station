@@ -50,13 +50,11 @@ a {
 /*Information*/
 
 .image-container {
-    height: 40%; /* Adjust height as needed */
     overflow: hidden;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
     background-color: white;
 }
 
