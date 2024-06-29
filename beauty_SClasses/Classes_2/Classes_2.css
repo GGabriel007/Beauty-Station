@@ -16,8 +16,6 @@ body {
     width: 100%;
 }
 
-
-
 .right-header-links {
     display: flex;
     flex-direction: row;
@@ -29,6 +27,16 @@ body {
     height: 100px;
     font-size: 29px;
     font-family: "PT Serif", serif;
+}
+
+.header-button {
+    background-color: #f8b6ce;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: solid;
+    border-radius: 40px;
 }
 
 a {
