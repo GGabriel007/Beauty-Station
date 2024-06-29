@@ -50,19 +50,17 @@ a {
 /*Information*/
 
 .image-container {
-    height: 100%; /* Adjust height as needed */
+    height: 40%; /* Adjust height as needed */
     overflow: hidden;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 320px;
     background-color: white;
 }
 
 .top-image {
-    height: 120px;
-    width: 320px;
     object-fit: cover;
     object-position: center;
 }
