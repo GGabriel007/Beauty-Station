@@ -50,7 +50,7 @@ a {
 /*Information*/
 
 .image-container {
-    height: 490px; /* Adjust height as needed */
+    height: 100%; /* Adjust height as needed */
     overflow: hidden;
     position: relative;
     display: flex;
@@ -61,7 +61,7 @@ a {
 }
 
 .top-image {
-    width: 50%;
+    height: 490px;
     object-fit: cover;
     object-position: center;
 }
