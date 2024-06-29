@@ -226,6 +226,10 @@ a {
         width: 100%;
     }
 
+    .overlay {
+        height: 165px;
+    }
+
     .centered-text {    
         font-size: 60PX;
     }
