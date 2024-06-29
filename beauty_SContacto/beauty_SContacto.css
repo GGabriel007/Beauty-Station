@@ -110,8 +110,8 @@ a {
 }
 
 .scrolling-wrapper img {
-    width: 530px;
-    height: 400px;
+    width: 40%;
+    height: 40%;
     flex-shrink: 0;
     border-radius: 12px; 
 }
@@ -200,6 +200,11 @@ a {
         height: auto;
     }
 
+    .background-imagen {
+        height: 222px;
+        width: 100%;
+    }
+
     .centered-text {    
         font-size: 60PX;
     }
@@ -207,6 +212,14 @@ a {
     .about-text{
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    .scrolling-wrapper img {
+        width: 80%;
+    }
+
+    .scrolling-wrapper {
+        scroll-padding-left: 10%;
     }
 
     /*Footer*/
@@ -240,8 +253,5 @@ a {
         padding-bottom: 11px;
     }
 
-    .background-imagen {
-        height: 222px;
-        width: 100%;
-    }
+
 }
