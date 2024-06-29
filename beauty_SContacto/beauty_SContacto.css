@@ -58,7 +58,11 @@ a {
     background-color: white;
 }
 
-.top-image {
+.background-imagen{
+    
+}
+
+.top-image img {
     object-fit: cover;
     object-position: center;
 }
