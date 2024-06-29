@@ -35,16 +35,6 @@ body {
     
 }
 
-.header-button {
-    background-color: #f8b6ce;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border: solid;
-    border-radius: 40px;
-}
-
 a {
     text-decoration: none;
     color: #F9FAF8;
@@ -245,6 +235,16 @@ a {
     .imagen-header {
         width: 100px;
         height: 100px;
+    }
+    
+    .header-button {
+        background-color: #f8b6ce;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: solid;
+        border-radius: 40px;
     }
 
     .mid-information {
