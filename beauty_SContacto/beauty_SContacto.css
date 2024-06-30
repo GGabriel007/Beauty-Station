@@ -6,19 +6,19 @@ body {
     font-family: "PT Serif", serif;
 }
 
-.top{
-    padding-bottom: 1px;
-}
-
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ebebeb;
+    background-color: white;
 }
 
 .line {
     background-color: #ed93b4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
 }
 
 
@@ -33,13 +33,13 @@ body {
     height: 100px;
     font-size: 29px;
     font-family: "PT Serif", serif;
-    
+    color: #ed93b4;
     
 }
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #ed93b4;
 }
 
 .image-header {
@@ -63,7 +63,7 @@ a {
 }
 
 .background-imagen {
-    width: 1891px;
+    width: 1897px;
     height: 400px;
 }
 
