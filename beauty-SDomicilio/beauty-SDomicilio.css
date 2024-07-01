@@ -56,7 +56,7 @@ a {
     width: 100%;
     text-align: center;
     background-color: white;
-    padding-bottom: 10px; 
+    padding-bottom: 30px; 
 }
 
 .top-information {
@@ -175,7 +175,7 @@ textarea {
     display: flex;
     justify-content: center; /* Center the icons */
     align-items: center; /* Center align the icons */
-    gap: 80px; /* Adjust the gap between icons as needed */
+    gap: 50px; /* Adjust the gap between icons as needed */
 }
 
 .single-icon {

@@ -187,7 +187,7 @@ a {
     display: flex;
     justify-content: center; /* Center the icons */
     align-items: center; /* Center align the icons */
-    gap: 80px; /* Adjust the gap between icons as needed */
+    gap: 50px; /* Adjust the gap between icons as needed */
 }
 
 .single-icon {
