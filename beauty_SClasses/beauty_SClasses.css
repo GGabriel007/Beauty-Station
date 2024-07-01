@@ -87,7 +87,7 @@ a {
     width: 300px;
     border-radius: 15px;
     background-color: #ed93b4;
-    padding: 5px;
+    padding: 2px;
 
     max-width: 100%;
 }
@@ -172,11 +172,11 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ed93b4;
-    color: white;
+    background-color: white;
+    color: #ed93b4;
     padding-top: 20px;
     font-size: 22px;
-}
+}   
 
 .icons_social {
     display: flex;
