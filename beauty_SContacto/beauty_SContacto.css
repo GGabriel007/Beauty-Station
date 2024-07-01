@@ -48,9 +48,6 @@ a {
     object-fit: cover;
     display: block;
     margin: 15px;
-
-
-
 }
 
 /*Information*/
@@ -190,7 +187,7 @@ a {
     display: flex;
     justify-content: center; /* Center the icons */
     align-items: center; /* Center align the icons */
-    gap: 40px; /* Adjust the gap between icons as needed */
+    gap: 80px; /* Adjust the gap between icons as needed */
 }
 
 .single-icon {
@@ -213,7 +210,6 @@ a {
     background-color: white;
     color: #ed93b4;
     padding-top: 20px;
-    padding-bottom: 20px;
     font-size: 22px;
 }   
 
@@ -247,8 +243,6 @@ a {
         padding-right: 15px;
         padding-top: 4px;
         padding-bottom: 4px;
-        border: solid;
-        border-color: #ed93b4;
         border-radius: 40px;
         color: white;
     }
@@ -315,10 +309,6 @@ a {
 
     .icon-Social-media {
         flex-direction: row;
-    }
-
-    .single-icon{
-        
     }
 
 
