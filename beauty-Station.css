@@ -211,7 +211,7 @@ a {
     display: flex;
     justify-content: center; /* Center the icons */
     align-items: center; /* Center align the icons */
-    gap: 50px; /* Adjust the gap between icons as needed */
+    gap: 70px; /* Adjust the gap between icons as needed */
 }
 
 .single-icon {
@@ -236,14 +236,6 @@ a {
     font-size: 22px;
 }   
 
-.icon-Social-media {
-    padding-top: 60px;
-    width: 60px;
-    height: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
 
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
