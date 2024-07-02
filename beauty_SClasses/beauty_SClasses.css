@@ -118,6 +118,7 @@ a {
     padding-top: 20px;
     word-break: break-word; /* Break long words to fit within the container */
     max-width: 100%; /* Ensure it doesn't overflow */
+    
 }
 
 .action-text {
