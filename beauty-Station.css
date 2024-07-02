@@ -139,6 +139,12 @@ a {
 
 }
 
+.waze-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .map-container iframe {
     width: 100%;
     max-width: 1200px;
