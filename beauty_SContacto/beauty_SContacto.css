@@ -21,7 +21,6 @@ body {
     background-color: #ed93b4;
 }
 
-
 .right-header-links {
     display: flex;
     flex-direction: row;
@@ -32,7 +31,6 @@ body {
     margin-top: 20px;
     height: 100px;
     font-size: 29px;
-    font-family: "PT Serif", serif;
     
 }
 
@@ -122,7 +120,7 @@ a {
     gap: 13px;
     padding: 10px;
     padding-top: 35px;
-    background-color: #ebebeb;
+    background-color: #fafafa;
 }
 
 .scrolling-wrapper img {
@@ -181,6 +179,7 @@ a {
 
 .second-action {
     font-size: 25px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .icons_social {
@@ -196,7 +195,6 @@ a {
     align-items: center;
 }
 
-
 .icon-Social-media {
     width: 60px;
     height: 60px;
@@ -211,7 +209,8 @@ a {
     color: #ed93b4;
     padding-top: 20px;
     font-size: 22px;
-}   
+    font-family: "Montserrat", sans-serif;
+}
 
 
 
@@ -223,7 +222,6 @@ a {
         padding-bottom: 16px;
         padding-top: 3px;
         font-size: 23px;
-        
     }
 
     .header{
@@ -234,9 +232,8 @@ a {
     .imagen-header {
         width: 100px;
         height: 100px;
-        
     }
-
+    
     .header-button {
         background-color: #f8b6ce;
         padding-left: 15px;
@@ -246,6 +243,7 @@ a {
         border-radius: 40px;
         color: white;
     }
+
 
     /*Content*/
 
@@ -283,13 +281,14 @@ a {
 
     /*Footer*/
 
-    .container{
+    .container {
         flex-direction: column;
         padding: 20px;
         gap: 1px;
         width: 80%;
         margin-left: 4.8%;
-        } 
+
+    }
 
     .action {
         flex-direction:  column;

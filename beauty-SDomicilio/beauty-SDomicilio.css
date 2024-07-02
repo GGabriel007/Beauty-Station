@@ -31,10 +31,8 @@ body {
     margin-top: 20px;
     height: 100px;
     font-size: 29px;
-    font-family: "PT Serif", serif;
     
 }
-
 
 a {
     text-decoration: none;
@@ -123,7 +121,7 @@ textarea {
     ;
 }
 
-/*Footer*/
+/* Fotter */
 
 .line2 {
     top: 0;
@@ -145,6 +143,7 @@ textarea {
     background-color: white;
 }
 
+
 .container{
     display: flex;
     flex-direction: column;
@@ -164,11 +163,12 @@ textarea {
 }
 
 .first-action {
-    font-size: 35px;
+    font-size: 35px;  
 }
 
 .second-action {
     font-size: 25px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .icons_social {
@@ -198,11 +198,11 @@ textarea {
     color: #ed93b4;
     padding-top: 20px;
     font-size: 22px;
-}   
+    font-family: "Montserrat", sans-serif;
+}  
 
 @media (max-width: 768px) {
     /*Header*/
-
     .right-header-links {
         flex-direction:  column;
         gap: 20px;
@@ -220,7 +220,7 @@ textarea {
         width: 100px;
         height: 100px;
     }
-
+    
     .header-button {
         background-color: #f8b6ce;
         padding-left: 15px;
@@ -240,7 +240,8 @@ textarea {
         gap: 1px;
         width: 80%;
         margin-left: 4.8%;
-        } 
+
+    }
 
     .action {
         flex-direction:  column;
