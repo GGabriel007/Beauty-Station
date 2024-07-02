@@ -72,9 +72,10 @@ a {
 .mid-information{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 15px;
+    gap: 70px;
 }
 
 .center img {
@@ -85,17 +86,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 275px;
 
 }
 
-.center-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
-
-}
 
 .center img:hover{
     transform: scale(1.05);
@@ -135,6 +129,8 @@ a {
 .first-text{
     font-size: 36px;
     color: #c66085;
+    display: flex;
+    justify-content: center;
 
 }
 
