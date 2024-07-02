@@ -66,6 +66,7 @@ a {
     gap: 20px;
     background-color: #fafafa;
     font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
 }
 
 .top-information {
