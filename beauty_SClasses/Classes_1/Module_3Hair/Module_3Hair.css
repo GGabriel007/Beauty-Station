@@ -50,6 +50,90 @@ a {
 
 /*Information*/
 
+/*Information*/
+
+.information {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.mid-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+.icon {
+    height: 525px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #ed93b4;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.header-information {
+    font-size: 36px;
+    font-family: "PT Serif", serif;
+    margin: 50px;
+}
+
+.text {
+    margin-bottom: 20px;
+    font-size: 28px;
+    width: 615px;
+    text-align: left;
+    line-height: 1.4;
+
+}
+
+.class_links {
+    color: black;
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image img{
+    margin-top: 25PX;
+    width: 300px;
+    height: 515px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #ed93b4;
+    padding: 2px;
+
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnails img {
+    width: 125px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 15px; 
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
+
 /* Fotter */
 
 .line2 {

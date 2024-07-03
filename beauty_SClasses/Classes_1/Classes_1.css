@@ -62,18 +62,25 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
     background-color: #fafafa;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
 }
 
+.top-information {
+    margin-bottom: 20px;
+    
+}
+
 .center {
+
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 100%;
 }
 
 .icon {
@@ -85,6 +92,16 @@ a {
     margin-left: 10px;
 }
 
+.center img {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+
+}
+
+.center img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
 .header-information {
     font-size: 36px;
     font-family: "PT Serif", serif;
@@ -92,12 +109,15 @@ a {
 }
 
 .text {
-    margin-bottom: 20px;
-    font-size: 28px;
-    width: 615px;
+    font-size: 25px;
+    width: 300px;
     text-align: left;
     line-height: 1.4;
-
+    padding-left: 25px;
+    padding-top: 20px;
+    word-break: break-word; /* Break long words to fit within the container */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    
 }
 
 .class_links {
@@ -105,42 +125,14 @@ a {
     text-decoration: underline;
 }
 
-.gallery {
+.info1 {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(158, 159, 159);
 }
 
-.main-image img{
-    margin-top: 25PX;
-    width: 300px;
-    height: 515px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    background-color: #ed93b4;
-    padding: 2px;
 
-}
-
-.thumbnails {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.thumbnails img {
-    width: 125px;
-    height: 200px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    border-radius: 15px; 
-}
-
-.thumbnails img:hover {
-    transform: scale(1.1);
-}
 
 /* Fotter */
 
@@ -257,16 +249,18 @@ a {
     }
 
     /*Content*/
-
-    .thumbnails{
-        width: 27%;
+    .mid-information{
+        flex-direction: column;
     }
-
-
-    .text {
+    
+    .center {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .text{
         font-size: 19px;
         width: 80%;
-        padding-right: 0;
     }
 
     /*Footer*/
