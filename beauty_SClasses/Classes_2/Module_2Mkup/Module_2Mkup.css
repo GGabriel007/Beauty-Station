@@ -249,6 +249,14 @@ a {
 
     /*Content*/
 
+    .thumbnail{
+        width: 110px;
+    }
+
+    .text{
+        width: 80%;
+    }
+
     /*Footer*/
     .container {
         flex-direction: column;
