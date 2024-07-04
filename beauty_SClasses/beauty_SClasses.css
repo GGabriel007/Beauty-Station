@@ -111,11 +111,10 @@ a {
 
 .text {
     font-size: 25px;
-    width: 300px;
+    width: 550px;
     text-align: left;
     line-height: 1.4;
     padding-left: 25px;
-    padding-top: 20px;
     word-break: break-word; /* Break long words to fit within the container */
     max-width: 100%; /* Ensure it doesn't overflow */
     
@@ -142,8 +141,6 @@ a {
 .second-action {
     font-size: 25px;
 }
-
-
 
 .line2 {
     top: 0;
