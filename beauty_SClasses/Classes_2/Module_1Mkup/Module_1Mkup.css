@@ -120,8 +120,8 @@ a {
 }
 
 .thumbnails img {
-    width: 125px;
-    height: 200px;
+    width: 100px;
+    height: 180px;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -246,11 +246,6 @@ a {
 
 
     /*Content*/
-
-    .thumbnail{
-        width: 100px;
-        height: 185px;
-    }
 
     .text{
         font-size: 19px;
