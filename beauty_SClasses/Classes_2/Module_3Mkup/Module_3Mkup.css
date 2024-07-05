@@ -48,7 +48,6 @@ a {
     margin: 15px;
 }
 
-/*Information*/
 
 /*Information*/
 
@@ -250,10 +249,12 @@ a {
     /*Content*/
 
     .thumbnail{
-        width: 110px;
+        width: 100px;
+        height: 185px;
     }
 
     .text{
+        font-size: 19px;
         width: 80%;
     }
 
