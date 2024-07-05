@@ -50,8 +50,6 @@ a {
 
 /*Information*/
 
-/*Information*/
-
 .information {
     width: 100%;
     text-align: center;
@@ -85,7 +83,7 @@ a {
 
 .text {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 20px;
     width: 615px;
     text-align: left;
     line-height: 1.4;
