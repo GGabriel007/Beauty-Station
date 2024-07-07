@@ -1,0 +1,356 @@
+/* Header */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "PT Serif", serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.line1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: #ed93b4;
+}
+
+.right-header-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    gap: 75px;
+    padding-right:40px;
+    margin-top: 20px;
+    height: 100px;
+    font-size: 29px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ed93b4;
+}
+
+.image-header {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 15px;
+}
+
+/*Information*/
+
+.information {
+    padding-bottom: 10px;
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.background-imagen {
+    width: 1897px;
+    height: 400px;
+}
+
+.top-image img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.375); /* Adjust opacity as needed */
+}
+
+.centered-text {
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: "PT Serif", serif;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 18%;
+    padding-right: 18%;
+    background-color: white;
+
+}
+
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: scroll;
+    gap: 13px;
+    padding: 10px;
+    padding-top: 35px;
+    background-color: #fafafa;
+}
+
+.scrolling-wrapper img {
+    width: 40%;
+    height: 40%;
+    flex-shrink: 0;
+    border-radius: 12px; 
+}
+
+
+
+/* Fotter */
+
+.line2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ed93b4;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #ed93b4;
+    font-family: "PT Serif", serif;
+    background-color: white;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border-radius: 15px;
+    background-color: white;
+    gap: 80px;
+
+}
+
+.action-text {
+    text-align: center; /* Center align the text */
+}
+
+.first-action {
+    font-size: 35px;  
+}
+
+.second-action {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.icons_social {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    align-items: center; /* Center align the icons */
+    gap: 70px; /* Adjust the gap between icons as needed */
+}
+
+.single-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-Social-media {
+    width: 60px;
+    height: 60px;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #ed93b4;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*Testing*/
+
+.registration-form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e6e0e2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.registration-form label {
+    margin-top: 10px;
+    display: block;
+}
+
+.registration-form input, .registration-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.registration-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: auto;
+}
+
+
+@media (max-width: 768px) {
+    /*Header*/
+    .right-header-links {
+        flex-direction:  column;
+        gap: 20px;
+        padding-bottom: 16px;
+        padding-top: 3px;
+        font-size: 23px;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+
+    .imagen-header {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .header-button {
+        background-color: #f8b6ce;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 40px;
+        color: white;
+    }
+
+
+    /*Content*/
+
+    .top-image {
+        width: 10px;
+        height: auto;
+    }
+
+    .background-imagen {
+        height: 165px;
+        width: 100%;
+    }
+
+    .overlay {
+        height: 165px;
+    }
+
+    .centered-text {    
+        font-size: 45PX;
+    }
+
+    .about-text{
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 17px;
+    }
+
+    .scrolling-wrapper img {
+        width: 80%;
+    }
+
+    .scrolling-wrapper {
+        scroll-padding-left: 10%;
+    }
+
+    /*Footer*/
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 1px;
+        width: 80%;
+        margin-left: 4.8%;
+
+    }
+
+    .action {
+        flex-direction:  column;
+    }
+
+    .first-action {
+        font-size: 34px;
+    }
+
+    .second-action {
+        font-size: 25px;
+    }
+
+    .fotter {
+        font-size: 18px;
+    }
+
+    .icon-Social-media {
+        flex-direction: row;
+    }
+
+
+}
