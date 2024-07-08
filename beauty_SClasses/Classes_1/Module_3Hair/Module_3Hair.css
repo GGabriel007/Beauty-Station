@@ -61,7 +61,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fafafa;
+    background-color: #f7f7f7;
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
 }
@@ -108,18 +108,18 @@ a {
     height: 515px;
     border-radius: 15px;
     margin-bottom: 20px;
-    background-color: #ed93b4;
+    background-color: white;
     padding: 2px;
 
 }
 
 .second-image img{
     margin-top: 25PX;
-    width: 400px;
+    width: 375px;
     height: 700px;
     border-radius: 15px;
     margin-bottom: 20px;
-    background-color: #ed93b4;
+    background-color: white;
     padding: 2px;
 
 }
