@@ -43,7 +43,6 @@ a {
 .image-header {
     width: 170px;
     height: 90px;
-    border-radius: 50%;
     object-fit: cover;
     display: block;
     margin-top: 15px;
