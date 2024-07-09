@@ -74,6 +74,8 @@ a {
     flex-wrap: wrap;
     padding-bottom: 15px;
     gap: 70px;
+    background-color: #f7f7f7;
+    padding-top: 25px;
 }
 
 .center img {
@@ -118,10 +120,9 @@ a {
     flex-direction: column;
     padding-right: 200px;
     padding-left: 200px;
-    background-color: #f7f7f7;
+    background-color: rgb(238, 238, 238);
     justify-content: flex-start;
     padding-top: 60px;
-    padding-bottom: 50px;
     font-size: 25px;
 }
 
